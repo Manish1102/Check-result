@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const inputValue = document.getElementById('inputValue').value;
   
       // Construct the link URL
-      const linkURL = `https://csvtu.digivarsity.online/WebApp/Result/SemesterResult.aspx?S=3%20SEMESTER&E=Nov-Dec%202022&R=${encodeURIComponent(inputValue)}&T=Regular`;
+      const linkURL = ` https://wa.me/${encodeURIComponent(inputValue)}`;
   
       // Display the link in the result container
       resultContainer.innerHTML = `<a href="${linkURL}" target="_blank">${linkURL}</a>`;
